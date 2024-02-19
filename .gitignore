@@ -34,3 +34,5 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 bun.lockb
+dist.zip
+VOSCA.vscode-v-analyzer-0.0.2.vsix

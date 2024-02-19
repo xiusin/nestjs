@@ -22,6 +22,12 @@ export class UsersController {
     ) {
     }
 
+    @Get('/hello')
+    async hello() {
+        return 'hello world!';
+    }
+
+
     @Post('/login')
     async login(@Body() userLoginDto: UserLoginDto) {
         return {
